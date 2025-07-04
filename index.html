@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ranjit Pandey Portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
@@ -16,125 +16,84 @@
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
   <style>
-    /* Global Responsive Adjustments */
     * {
       box-sizing: border-box;
     }
-
     html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
       overflow-x: hidden;
     }
-
     img {
       max-width: 100%;
       height: auto;
     }
-
     .container, .container-fluid {
-      width: 100%;
-      padding-right: 15px;
       padding-left: 15px;
-      margin-right: auto;
-      margin-left: auto;
+      padding-right: 15px;
     }
-
-    /* Responsive Layout Adjustments */
-    @media (max-width: 992px) {
+    #typing-animation {
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: .15em solid orange;
+      animation: typing 3s steps(20, end) infinite, blink-caret .75s step-end infinite;
+    }
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+    @keyframes blink-caret {
+      from, to { border-color: transparent; }
+      50% { border-color: orange; }
+    }
+    .zoom-effect {
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .zoom-effect:hover {
+      transform: scale(1.05);
+    }
+    @media screen and (max-width: 992px) {
       .one-third, .one-forth {
         width: 100% !important;
         text-align: center;
       }
-      .one-third.img {
-        display: none !important;
-      }
-      .ftco-animate {
-        text-align: center;
-      }
       .img-about {
+        display: flex;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
       }
-    }
-
-    @media (max-width: 768px) {
-      .heading-section h1.big, .heading-section h2 {
-        font-size: 24px;
+      .img-about img {
+        margin-left: 0 !important;
       }
-
-      .about-info p, .about-info span, .resume-wrap, .progress-bar, .skill-mf span {
+      .about-info p, .skill-mf span, .progress-bar {
         font-size: 14px;
       }
-
-      .resume-wrap {
-        margin-bottom: 2rem;
-        padding: 10px;
-      }
-
-      .blog-entry {
-        width: 100%;
-        margin-bottom: 20px;
-      }
-
-      .blog-entry .text {
-        text-align: center;
-      }
-
       .counter-wrap {
-        margin-bottom: 1.5rem;
-      }
-
-      #typing-animation {
-        font-size: 18px;
+        margin-bottom: 20px;
         text-align: center;
       }
     }
-
-    /* Animation styles */
-    #typing-animation {
-      position: relative;
-      font-size: 30px;
-      font-weight: bold;
-      color: rgb(255, 255, 255);
-      overflow: hidden;
-      white-space: nowrap;
-      animation: typing 3s steps(20, end) infinite;
-    }
-
-    #typing-animation:before {
-      content: "";
-      top: 0;
-      left: 0;
-      width: 0;
-      height: 100%;
-      background-color: #ccc;
-      animation: typing-cursor 0.5s ease-in-out infinite;
-    }
-
-    @keyframes typing {
-      from {
-        width: 0;
+    @media screen and (max-width: 576px) {
+      .heading-section h1.big, .heading-section h2, h2, h1 {
+        font-size: 22px;
+        text-align: center;
       }
-      to {
-        width: 100%;
+      .navbar-brand {
+        font-size: 20px;
       }
-    }
-
-    @keyframes typing-cursor {
-      from {
-        width: 5px;
+      .btn {
+        font-size: 14px;
+        padding: 10px 20px;
       }
-      to {
-        width: 0;
+      .about-info span, .about-info p {
+        font-size: 13px;
       }
-    }
-
-    /* Image hover zoom effect */
-    .zoom-effect {
-      overflow: hidden;
-      transition: transform 0.3s ease-out;
-    }
-
-    .zoom-effect:hover {
-      transform: scale(1.05);
     }
   </style>
 </head>
@@ -165,7 +124,7 @@
 	      	<div class="overlay"></div>
 	         <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_21.png);">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.png);">
 	          	 <div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
