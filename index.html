@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ranjit Pandey — Python Developer &amp; Data Analyst</title>
+<meta name="description" content="Ranjit Pandey is a Python developer and data analyst building automation, data pipelines and analytics tools. Based in Gurugram, India.">
+<meta name="theme-color" content="#0a0e17">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230a0e17'/%3E%3Ctext x='50' y='68' font-family='monospace' font-size='58' font-weight='700' fill='%23ffd43b' text-anchor='middle'%3E%3E_%3C/text%3E%3C/svg%3E">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Ranjit Pandey — Python Developer & Data Analyst">
+<meta property="og:description" content="Python developer & data analyst specializing in automation, data pipelines and analytics.">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============================= NAV ============================= -->
+<header class="site-nav">
+  <div class="wrap">
+    <a href="#home" class="brand">
+      <span class="dot">&gt;</span> ranjit-pandey <span class="seg-mute">/ portfolio</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#home" class="is-active">home</a>
+      <a href="#about">about</a>
+      <a href="#resume">experience</a>
+      <a href="#projects">projects</a>
+      <a href="https://theranjitpandey.vercel.app" target="_blank" rel="noopener noreferrer">blog</a>
+      <a href="#contact">contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle light and dark theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle navigation menu" aria-controls="navLinks" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============================= HERO ============================= -->
+  <section class="hero" id="home">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <p class="hero-kicker mono">~/portfolio $ whoami</p>
+          <h1>Hi, I'm <span class="accent">Ranjit Pandey</span></h1>
+          <p class="hero-role"><span id="roleTyped">Python Developer</span><span class="cursor" aria-hidden="true"></span></p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects <span class="arrow" aria-hidden="true">→</span></a>
+            <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+          </div>
+
+          <div class="status-strip" role="list" aria-label="Quick facts">
+            <span role="listitem"><i class="led" aria-hidden="true"></i> Gurugram, India</span>
+            <span role="listitem">2+ yrs experience</span>
+            <span role="listitem">5 projects shipped</span>
+            <span role="listitem">Python · SQL · Power BI</span>
+          </div>
+        </div>
+
+        <div class="editor-window reveal" data-reveal>
+          <div class="editor-titlebar">
+            <div class="editor-dots"><span></span><span></span><span></span></div>
+            <span class="editor-tab">hello.py</span>
+          </div>
+          <div class="editor-body" id="replBlock">
+            <div class="typed-line"><span class="ln">1</span><span class="kw">import</span> ranjit <span class="kw">as</span> dev</div>
+            <div class="typed-line"><span class="ln">2</span></div>
+            <div class="typed-line"><span class="ln">3</span><span class="fn">dev</span>.role</div>
+            <div class="typed-line"><span class="ln">4</span><span class="str">'Python Developer &amp; Data Analyst'</span></div>
+            <div class="typed-line"><span class="ln">5</span></div>
+            <div class="typed-line"><span class="ln">6</span><span class="fn">dev</span>.currently_building</div>
+            <div class="typed-line"><span class="ln">7</span><span class="str">'Data pipelines &amp; dashboards @ Policybazaar'</span></div>
+            <div class="typed-line"><span class="ln">8</span></div>
+            <div class="typed-line"><span class="ln">9</span><span class="cm"># let's build something reliable</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= ABOUT ============================= -->
+  <section class="section" id="about">
+    <div class="wrap section-inner">
+      <p class="eyebrow reveal" data-reveal><span class="file">about.py</span> · <span># a little about me</span></p>
+      <h2 class="section-title reveal" data-reveal>Turning messy data into decisions people can act on.</h2>
+
+      <div class="about-grid">
+        <div class="reveal" data-reveal>
+          <div class="profile-card">
+            <div class="profile-photo-wrap">
+              <img src="assets/images/profile.jpg" alt="Portrait of Ranjit Pandey" width="640" height="640" loading="lazy" decoding="async">
+            </div>
+            <div class="profile-tag">
+              <span>profile.jpg</span>
+              <span class="dim">736×736</span>
+            </div>
+          </div>
+
+          <div class="json-card mono" aria-label="Quick facts">
+            <div>{</div>
+            <div>&nbsp;&nbsp;<span class="k">"profile"</span>: <span class="v">"Python Developer & Data Science"</span>,</div>
+            <div>&nbsp;&nbsp;<span class="k">"domain"</span>: <span class="v">"Retail, E-commerce, BFSI & Healthcare"</span>,</div>
+            <div>&nbsp;&nbsp;<span class="k">"education"</span>: <span class="v">"Bachelor of Commerce"</span>,</div>
+            <div>&nbsp;&nbsp;<span class="k">"languages"</span>: [<span class="v">"English"</span>, <span class="v">"Hindi"</span>],</div>
+            <div>&nbsp;&nbsp;<span class="k">"tools"</span>: [<span class="v">"Jupyter"</span>, <span class="v">"VS Code"</span>, <span class="v">"Git"</span>, <span class="v">"Postman"</span>, <span class="v">"MSSQL"</span>],</div>
+            <div>&nbsp;&nbsp;<span class="k">"interests"</span>: [<span class="v">"Travel"</span>, <span class="v">"Photography"</span>, <span class="v">"Teaching"</span>]</div>
+            <div>}</div>
+          </div>
+        </div>
+
+        <div class="reveal" data-reveal>
+          <div class="about-bio">
+            <p>Python developer with two years of hands-on experience building efficient, scalable and reliable solutions. I write clean, optimized Python for automation, data processing and backend work, and I'm comfortable across Pandas, NumPy, Flask and Django with a strong foundation in data analysis and scripting.</p>
+            <p>I've contributed to data pipelines, API integrations and performance-focused projects — mostly in retail, e-commerce, BFSI and healthcare contexts, where the goal is always the same: get from raw data to a decision faster.</p>
+          </div>
+
+          <div class="skill-list" aria-label="Skills">
+            <div class="skill-row" data-skill="95">
+              <div class="skill-top"><span class="skill-name">Python</span><span class="skill-pct">95%</span></div>
+              <div class="skill-track"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-row" data-skill="85">
+              <div class="skill-top"><span class="skill-name">Pandas &amp; NumPy</span><span class="skill-pct">85%</span></div>
+              <div class="skill-track"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-row" data-skill="80">
+              <div class="skill-top"><span class="skill-name">Flask / Django</span><span class="skill-pct">80%</span></div>
+              <div class="skill-track"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-row" data-skill="90">
+              <div class="skill-top"><span class="skill-name">SQL</span><span class="skill-pct">90%</span></div>
+              <div class="skill-track"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-row" data-skill="97">
+              <div class="skill-top"><span class="skill-name">Data Analysis</span><span class="skill-pct">97%</span></div>
+              <div class="skill-track"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-row" data-skill="98">
+              <div class="skill-top"><span class="skill-name">Automation &amp; Scripting</span><span class="skill-pct">98%</span></div>
+              <div class="skill-track"><div class="skill-fill"></div></div>
+            </div>
+          </div>
+
+          <div class="stat-row" aria-label="Highlights">
+            <div class="stat-chip"><span class="num">2<span class="accent">+</span></span><span class="label">years exp.</span></div>
+            <div class="stat-chip"><span class="num">5<span class="accent">+</span></span><span class="label">projects</span></div>
+            <div class="stat-chip"><span class="num">2</span><span class="label">companies</span></div>
+            <div class="stat-chip"><span class="num">4</span><span class="label">domains</span></div>
+          </div>
+
+          <div style="margin-top:30px;">
+            <a href="https://www.linkedin.com/in/ranjitpandey/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Connect on LinkedIn <span class="arrow" aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= EXPERIENCE / RESUME ============================= -->
+  <section class="section" id="resume">
+    <div class="wrap section-inner">
+      <p class="eyebrow reveal" data-reveal><span class="file">experience.py</span> · <span># career timeline</span></p>
+      <h2 class="section-title reveal" data-reveal>A log of where I've worked, git-style.</h2>
+      <p class="section-lede reveal" data-reveal>Python developer with 2+ years building automated, data-driven solutions — from ad-campaign analysis to production dashboards.</p>
+
+      <div class="timeline-head" style="margin-top:56px;">
+        <h3 class="mono" style="font-size:14px;color:var(--text-mute);text-transform:uppercase;letter-spacing:.06em;">git log --experience</h3>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item reveal" data-reveal>
+          <div class="commit-meta"><span class="hash">● 2025 — Present</span></div>
+          <h3>Python Developer</h3>
+          <span class="role-at">at <strong>Policybazaar</strong> — India's leading online insurance aggregator, backed by PB Fintech</span>
+          <ul class="diff-list">
+            <li>Developed Python scripts to analyze ad campaign, clickstream and customer survey data, surfacing trends that led to a new high-demand product line.</li>
+            <li>Designed and implemented A/B testing frameworks using Python and statistical libraries, driving a 20% month-over-month increase in conversion rate.</li>
+            <li>Automated end-to-end data workflows and built actionable dashboards to support business and marketing decisions.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item reveal" data-reveal>
+          <div class="commit-meta"><span class="hash">● 2023 — 2024</span></div>
+          <h3>Developer</h3>
+          <span class="role-at">at <strong>Subinfra</strong> — a leading contract information provider for infrastructure &amp; construction</span>
+          <ul class="diff-list">
+            <li>Performed market research and analysis to build online pages, driving ~100% website growth and a 30% YoY increase in conversion rate.</li>
+            <li>Delivered training and mentorship sessions on SQL, MS Excel, Power BI and Python.</li>
+            <li>Ran data migration and feature enhancements on the merchandising dashboard, focused on seamless integration and contract-intelligence workflows.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="edu-grid">
+        <div class="edu-card reveal" data-reveal>
+          <span class="date mono">2020 — 2023</span>
+          <h3>Bachelor of Commerce</h3>
+          <span class="school">Veer Kunwar Singh University</span>
+          <p class="grade">First class distinction</p>
+        </div>
+        <div class="edu-card reveal" data-reveal>
+          <span class="date mono">2018 — 2020</span>
+          <h3>Higher Secondary School</h3>
+          <span class="school">Veer Kunwar Singh University</span>
+          <p class="grade">First class distinction</p>
+        </div>
+      </div>
+
+      <div class="resume-cta reveal" data-reveal>
+        <a href="#contact" class="btn btn-ghost" id="resumeDownload">Download Résumé <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= PROJECTS ============================= -->
+  <section class="section" id="projects">
+    <div class="wrap section-inner">
+      <p class="eyebrow reveal" data-reveal><span class="file">projects.py</span> · <span># things I've shipped</span></p>
+      <h2 class="section-title reveal" data-reveal>Data analytics projects across SQL, Python, Power BI &amp; ML.</h2>
+
+      <div class="project-grid" style="margin-top:48px;">
+
+        <article class="project-card reveal" data-reveal>
+          <a class="project-thumb" href="https://github.com/theranjitpandey/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql" target="_blank" rel="noopener noreferrer">
+            <img src="assets/images/project-sql-music-store.jpg" alt="Digital music store data analysis using SQL" width="626" height="351" loading="lazy" decoding="async">
+          </a>
+          <div class="project-body">
+            <div class="project-tags"><span>SQL</span></div>
+            <h3><a href="https://github.com/theranjitpandey/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql" target="_blank" rel="noopener noreferrer">Digital Music Store Data Analysis</a></h3>
+            <p>Analyzed music store data with advanced SQL queries to identify gaps and growth opportunities.</p>
+            <a class="project-link" href="https://github.com/theranjitpandey/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql" target="_blank" rel="noopener noreferrer">View on GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-reveal>
+          <a class="project-thumb" href="https://github.com/theranjitpandey/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb" target="_blank" rel="noopener noreferrer">
+            <img src="assets/images/project-python-diwali-sales.jpg" alt="Diwali sales exploratory data analysis using Python" width="900" height="900" loading="lazy" decoding="async">
+          </a>
+          <div class="project-body">
+            <div class="project-tags"><span>Python</span></div>
+            <h3><a href="https://github.com/theranjitpandey/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb" target="_blank" rel="noopener noreferrer">Diwali Sales Analysis</a></h3>
+            <p>Exploratory data analysis on Diwali sales data using Python to improve customer experience.</p>
+            <a class="project-link" href="https://github.com/theranjitpandey/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb" target="_blank" rel="noopener noreferrer">View on GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-reveal>
+          <a class="project-thumb" href="https://github.com/theranjitpandey/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" target="_blank" rel="noopener noreferrer">
+            <img src="assets/images/project-powerbi-dashboard.jpg" alt="Power BI sales dashboard for Madhav Store" width="1000" height="562" loading="lazy" decoding="async">
+          </a>
+          <div class="project-body">
+            <div class="project-tags"><span>Power BI</span></div>
+            <h3><a href="https://github.com/theranjitpandey/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" target="_blank" rel="noopener noreferrer">Power BI Sales Dashboard</a></h3>
+            <p>Built a Power BI dashboard for Madhav Store to track and analyze online sales across India.</p>
+            <a class="project-link" href="https://github.com/theranjitpandey/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" target="_blank" rel="noopener noreferrer">View on GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-reveal>
+          <a class="project-thumb" href="https://github.com/theranjitpandey/sales_forecasting/tree/main" target="_blank" rel="noopener noreferrer">
+            <img src="assets/images/project-sales-forecasting.jpg" alt="Sales forecasting using time series analysis" width="768" height="421" loading="lazy" decoding="async">
+          </a>
+          <div class="project-body">
+            <div class="project-tags"><span>ML</span><span>Time Series</span></div>
+            <h3><a href="https://github.com/theranjitpandey/sales_forecasting/tree/main" target="_blank" rel="noopener noreferrer">Sales Forecasting</a></h3>
+            <p>Used multiple machine learning models to forecast retail sales and analyze seasonal trends.</p>
+            <a class="project-link" href="https://github.com/theranjitpandey/sales_forecasting/tree/main" target="_blank" rel="noopener noreferrer">View on GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-reveal>
+          <a class="project-thumb" href="https://github.com/theranjitpandey/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb" target="_blank" rel="noopener noreferrer">
+            <img src="assets/images/project-customer-segmentation.jpg" alt="Customer segmentation using a clustering model" width="626" height="417" loading="lazy" decoding="async">
+          </a>
+          <div class="project-body">
+            <div class="project-tags"><span>ML</span><span>Clustering</span></div>
+            <h3><a href="https://github.com/theranjitpandey/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb" target="_blank" rel="noopener noreferrer">Customer Segmentation</a></h3>
+            <p>Built an ML model to recommend financial products &amp; services to target customer groups.</p>
+            <a class="project-link" href="https://github.com/theranjitpandey/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb" target="_blank" rel="noopener noreferrer">View on GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="projects-cta reveal" data-reveal>
+        <h3>More on GitHub</h3>
+        <p>I enjoy solving real-world business problems through code — there's more where that came from.</p>
+        <a href="https://github.com/theranjitpandey" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Visit GitHub <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= CONTACT ============================= -->
+  <section class="section" id="contact">
+    <div class="wrap section-inner">
+      <p class="eyebrow reveal" data-reveal><span class="file">contact.py</span> · <span># let's build something</span></p>
+      <h2 class="section-title reveal" data-reveal>Have a project in mind? Let's talk.</h2>
+
+      <div class="contact-grid" style="margin-top:48px;">
+        <div class="contact-card reveal" data-reveal>
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <h3>Location</h3>
+          <p>Gurugram, NCR, India</p>
+        </div>
+        <div class="contact-card reveal" data-reveal>
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><path d="M2 6h20v12H2z"/></svg></div>
+          <h3>Email</h3>
+          <a href="mailto:theranjitkartik@gmail.com">theranjitkartik@gmail.com</a>
+        </div>
+        <div class="contact-card reveal" data-reveal>
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 22v-2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></div>
+          <h3>Availability</h3>
+          <p>Open to opportunities</p>
+        </div>
+        <div class="contact-card reveal" data-reveal>
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg></div>
+          <h3>Response Time</h3>
+          <p>Within 1–2 days</p>
+        </div>
+      </div>
+
+      <div class="contact-lower">
+        <form class="form-card reveal" data-reveal id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required>
+            <span class="error" id="nameError">Please enter your name.</span>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+            <span class="error" id="emailError">Please enter a valid email address.</span>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="What would you like to build?" required></textarea>
+            <span class="error" id="messageError">Please add a short message.</span>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Message <span class="arrow" aria-hidden="true">→</span></button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+
+        <div class="socials-card reveal" data-reveal>
+          <h3>Find me elsewhere</h3>
+          <p>I'm most active on LinkedIn and GitHub — that's the fastest way to reach me.</p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/ranjitpandey/" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V23h-4V8zm7.5 0h3.83v2.05h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.14V23h-4v-6.94c0-1.65-.03-3.78-2.3-3.78-2.3 0-2.65 1.8-2.65 3.66V23h-4V8z"/></svg>
+              LinkedIn <span class="handle">/in/ranjitpandey</span>
+            </a>
+            <a href="https://github.com/theranjitpandey" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.8 5.4.8 11.7c0 5 3.2 9.2 7.7 10.7.6.1.8-.2.8-.6v-2.2c-3.1.7-3.8-1.5-3.8-1.5-.5-1.3-1.2-1.7-1.2-1.7-1-.7.1-.6.1-.6 1.1.1 1.6 1.1 1.6 1.1 1 1.6 2.5 1.2 3.1.9.1-.7.4-1.2.6-1.5-2.5-.3-5.1-1.2-5.1-5.5 0-1.2.4-2.2 1.1-3-.1-.3-.5-1.4.1-2.9 0 0 .9-.3 3 1.1a10.4 10.4 0 0 1 5.4 0c2.1-1.4 3-1.1 3-1.1.6 1.5.2 2.6.1 2.9.7.8 1.1 1.8 1.1 3 0 4.3-2.6 5.2-5.1 5.5.4.3.8 1 .8 2v3c0 .4.2.7.8.6 4.5-1.5 7.7-5.7 7.7-10.7C23.2 5.4 18.3.5 12 .5z"/></svg>
+              GitHub <span class="handle">@theranjitpandey</span>
+            </a>
+            <a href="https://twitter.com/theranjitpandey" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.24 2H21l-6.6 7.54L22 22h-6.86l-5.37-6.7L3.6 22H1l7.08-8.09L1.4 2h7l4.86 6.1L18.24 2zm-1.2 18h1.9L7.03 3.9H5l12 16.1z"/></svg>
+              Twitter <span class="handle">@theranjitpandey</span>
+            </a>
+            <a href="https://www.instagram.com/theranjitpandey/" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+              Instagram <span class="handle">@theranjitpandey</span>
+            </a>
+            <a href="https://theranjitpandey.vercel.app" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg>
+              Blog <span class="handle">theranjitpandey.vercel.app</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; <span id="year"></span> Ranjit Pandey. Built with hand-written HTML, CSS &amp; JavaScript.</p>
+    <a href="#home" class="back-to-top mono">cd ~</a>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
