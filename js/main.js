@@ -134,7 +134,7 @@
     var el = document.getElementById("roleTyped");
     if (!el) return;
 
-    var roles = ["Python Developer", "Data Analyst", "Excel Automation"];
+    var roles = ["Python Developer", "Data Engineer", "Data Analyst"];
 
     if (prefersReducedMotion) {
       el.textContent = roles[0];
